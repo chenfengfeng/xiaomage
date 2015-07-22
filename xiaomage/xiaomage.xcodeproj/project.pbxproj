@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		ED52D4171B5D1044003C6E5E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED52D4161B5D1044003C6E5E /* main.m */; };
-		ED52D41A1B5D1044003C6E5E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED52D4191B5D1044003C6E5E /* AppDelegate.m */; };
+		41F8F3A7EA66B14D64BA5D24 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F8D2CB22B738C588BEFE11C /* libPods.a */; };
 		ED52D4201B5D1044003C6E5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED52D41E1B5D1044003C6E5E /* Main.storyboard */; };
 		ED52D4221B5D1044003C6E5E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED52D4211B5D1044003C6E5E /* Images.xcassets */; };
 		ED52D4251B5D1044003C6E5E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED52D4231B5D1044003C6E5E /* LaunchScreen.xib */; };
 		ED52D4311B5D1044003C6E5E /* xiaomageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED52D4301B5D1044003C6E5E /* xiaomageTests.m */; };
+		EDAEAD361B5FAD8E008C3E90 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDAEAD2B1B5FAD8E008C3E90 /* AppDelegate.m */; };
+		EDAEAD371B5FAD8E008C3E90 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EDAEAD2C1B5FAD8E008C3E90 /* Info.plist */; };
+		EDAEAD381B5FAD8E008C3E90 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDAEAD2D1B5FAD8E008C3E90 /* main.m */; };
+		EDAEAD3B1B5FAF98008C3E90 /* CZFtableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDAEAD3A1B5FAF98008C3E90 /* CZFtableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,17 +29,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F8D2CB22B738C588BEFE11C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		459E289D4A1E295FFFD0C3C5 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		ED52D4111B5D1044003C6E5E /* xiaomage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xiaomage.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		ED52D4151B5D1044003C6E5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ED52D4161B5D1044003C6E5E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		ED52D4181B5D1044003C6E5E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		ED52D4191B5D1044003C6E5E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		ED52D41F1B5D1044003C6E5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ED52D4211B5D1044003C6E5E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		ED52D4241B5D1044003C6E5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		ED52D42A1B5D1044003C6E5E /* xiaomageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = xiaomageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED52D42F1B5D1044003C6E5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED52D4301B5D1044003C6E5E /* xiaomageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = xiaomageTests.m; sourceTree = "<group>"; };
+		EDAEAD2A1B5FAD8E008C3E90 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EDAEAD2B1B5FAD8E008C3E90 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EDAEAD2C1B5FAD8E008C3E90 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDAEAD2D1B5FAD8E008C3E90 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EDAEAD391B5FAF98008C3E90 /* CZFtableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZFtableViewController.h; sourceTree = "<group>"; };
+		EDAEAD3A1B5FAF98008C3E90 /* CZFtableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZFtableViewController.m; sourceTree = "<group>"; };
+		F48C0D99A0510EA0300F8A3E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41F8F3A7EA66B14D64BA5D24 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,12 +66,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		84CFED1A4378CCEB8DFE4321 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F48C0D99A0510EA0300F8A3E /* Pods.debug.xcconfig */,
+				459E289D4A1E295FFFD0C3C5 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		96431B7B8A30A03402519E45 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F8D2CB22B738C588BEFE11C /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		ED52D4081B5D1044003C6E5E = {
 			isa = PBXGroup;
 			children = (
 				ED52D4131B5D1044003C6E5E /* xiaomage */,
 				ED52D42D1B5D1044003C6E5E /* xiaomageTests */,
 				ED52D4121B5D1044003C6E5E /* Products */,
+				84CFED1A4378CCEB8DFE4321 /* Pods */,
+				96431B7B8A30A03402519E45 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,10 +106,7 @@
 		ED52D4131B5D1044003C6E5E /* xiaomage */ = {
 			isa = PBXGroup;
 			children = (
-				ED52D43D1B5D1156003C6E5E /* 其他 */,
-				ED52D43C1B5D1106003C6E5E /* 自定义的View */,
-				ED52D43B1B5D10FD003C6E5E /* 模型 */,
-				ED52D43A1B5D10EB003C6E5E /* 控制器 */,
+				EDAEAD241B5FAD8E008C3E90 /* 类 */,
 				ED52D4141B5D1044003C6E5E /* Supporting Files */,
 			);
 			path = xiaomage;
@@ -93,8 +118,6 @@
 				ED52D41E1B5D1044003C6E5E /* Main.storyboard */,
 				ED52D4211B5D1044003C6E5E /* Images.xcassets */,
 				ED52D4231B5D1044003C6E5E /* LaunchScreen.xib */,
-				ED52D4151B5D1044003C6E5E /* Info.plist */,
-				ED52D4161B5D1044003C6E5E /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -116,34 +139,153 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		ED52D43A1B5D10EB003C6E5E /* 控制器 */ = {
+		EDAEAD241B5FAD8E008C3E90 /* 类 */ = {
 			isa = PBXGroup;
 			children = (
+				EDAEAD3C1B5FC0E9008C3E90 /* 登录 */,
+				EDAEAD321B5FAD8E008C3E90 /* 表格 */,
+				EDAEAD2E1B5FAD8E008C3E90 /* 学习记录 */,
+				EDAEAD251B5FAD8E008C3E90 /* 个人信息 */,
+				EDAEAD291B5FAD8E008C3E90 /* 其他 */,
 			);
-			name = "控制器";
+			path = "类";
 			sourceTree = "<group>";
 		};
-		ED52D43B1B5D10FD003C6E5E /* 模型 */ = {
+		EDAEAD251B5FAD8E008C3E90 /* 个人信息 */ = {
 			isa = PBXGroup;
 			children = (
+				EDAEAD261B5FAD8E008C3E90 /* controller */,
+				EDAEAD271B5FAD8E008C3E90 /* model */,
+				EDAEAD281B5FAD8E008C3E90 /* view */,
 			);
-			name = "模型";
+			path = "个人信息";
 			sourceTree = "<group>";
 		};
-		ED52D43C1B5D1106003C6E5E /* 自定义的View */ = {
+		EDAEAD261B5FAD8E008C3E90 /* controller */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = "自定义的View";
+			path = controller;
 			sourceTree = "<group>";
 		};
-		ED52D43D1B5D1156003C6E5E /* 其他 */ = {
+		EDAEAD271B5FAD8E008C3E90 /* model */ = {
 			isa = PBXGroup;
 			children = (
-				ED52D4181B5D1044003C6E5E /* AppDelegate.h */,
-				ED52D4191B5D1044003C6E5E /* AppDelegate.m */,
 			);
-			name = "其他";
+			path = model;
+			sourceTree = "<group>";
+		};
+		EDAEAD281B5FAD8E008C3E90 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		EDAEAD291B5FAD8E008C3E90 /* 其他 */ = {
+			isa = PBXGroup;
+			children = (
+				EDAEAD2A1B5FAD8E008C3E90 /* AppDelegate.h */,
+				EDAEAD2B1B5FAD8E008C3E90 /* AppDelegate.m */,
+				EDAEAD2C1B5FAD8E008C3E90 /* Info.plist */,
+				EDAEAD2D1B5FAD8E008C3E90 /* main.m */,
+			);
+			path = "其他";
+			sourceTree = "<group>";
+		};
+		EDAEAD2E1B5FAD8E008C3E90 /* 学习记录 */ = {
+			isa = PBXGroup;
+			children = (
+				EDAEAD2F1B5FAD8E008C3E90 /* controller */,
+				EDAEAD301B5FAD8E008C3E90 /* model */,
+				EDAEAD311B5FAD8E008C3E90 /* view */,
+			);
+			path = "学习记录";
+			sourceTree = "<group>";
+		};
+		EDAEAD2F1B5FAD8E008C3E90 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		EDAEAD301B5FAD8E008C3E90 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		EDAEAD311B5FAD8E008C3E90 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		EDAEAD321B5FAD8E008C3E90 /* 表格 */ = {
+			isa = PBXGroup;
+			children = (
+				EDAEAD331B5FAD8E008C3E90 /* controller */,
+				EDAEAD341B5FAD8E008C3E90 /* model */,
+				EDAEAD351B5FAD8E008C3E90 /* view */,
+			);
+			path = "表格";
+			sourceTree = "<group>";
+		};
+		EDAEAD331B5FAD8E008C3E90 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				EDAEAD391B5FAF98008C3E90 /* CZFtableViewController.h */,
+				EDAEAD3A1B5FAF98008C3E90 /* CZFtableViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		EDAEAD341B5FAD8E008C3E90 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		EDAEAD351B5FAD8E008C3E90 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		EDAEAD3C1B5FC0E9008C3E90 /* 登录 */ = {
+			isa = PBXGroup;
+			children = (
+				EDAEAD3D1B5FC0FA008C3E90 /* controller */,
+				EDAEAD3E1B5FC0FA008C3E90 /* model */,
+				EDAEAD3F1B5FC0FA008C3E90 /* view */,
+			);
+			path = "登录";
+			sourceTree = "<group>";
+		};
+		EDAEAD3D1B5FC0FA008C3E90 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		EDAEAD3E1B5FC0FA008C3E90 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		EDAEAD3F1B5FC0FA008C3E90 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,9 +295,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ED52D4341B5D1044003C6E5E /* Build configuration list for PBXNativeTarget "xiaomage" */;
 			buildPhases = (
+				702CC352838998008B41BF97 /* Check Pods Manifest.lock */,
 				ED52D40D1B5D1044003C6E5E /* Sources */,
 				ED52D40E1B5D1044003C6E5E /* Frameworks */,
 				ED52D40F1B5D1044003C6E5E /* Resources */,
+				5FDA565DD5E79D821EA54230 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -190,6 +334,7 @@
 		ED52D4091B5D1044003C6E5E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = CZF;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "陈泽峰";
 				TargetAttributes = {
@@ -226,6 +371,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDAEAD371B5FAD8E008C3E90 /* Info.plist in Resources */,
 				ED52D4201B5D1044003C6E5E /* Main.storyboard in Resources */,
 				ED52D4251B5D1044003C6E5E /* LaunchScreen.xib in Resources */,
 				ED52D4221B5D1044003C6E5E /* Images.xcassets in Resources */,
@@ -241,13 +387,47 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5FDA565DD5E79D821EA54230 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		702CC352838998008B41BF97 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		ED52D40D1B5D1044003C6E5E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED52D41A1B5D1044003C6E5E /* AppDelegate.m in Sources */,
-				ED52D4171B5D1044003C6E5E /* main.m in Sources */,
+				EDAEAD381B5FAD8E008C3E90 /* main.m in Sources */,
+				EDAEAD361B5FAD8E008C3E90 /* AppDelegate.m in Sources */,
+				EDAEAD3B1B5FAF98008C3E90 /* CZFtableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,10 +551,11 @@
 		};
 		ED52D4351B5D1044003C6E5E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F48C0D99A0510EA0300F8A3E /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				INFOPLIST_FILE = xiaomage/Info.plist;
+				INFOPLIST_FILE = "xiaomage/类/其他/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -383,10 +564,11 @@
 		};
 		ED52D4361B5D1044003C6E5E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 459E289D4A1E295FFFD0C3C5 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				INFOPLIST_FILE = xiaomage/Info.plist;
+				INFOPLIST_FILE = "xiaomage/类/其他/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -446,6 +628,7 @@
 				ED52D4361B5D1044003C6E5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ED52D4371B5D1044003C6E5E /* Build configuration list for PBXNativeTarget "xiaomageTests" */ = {
 			isa = XCConfigurationList;
@@ -454,6 +637,7 @@
 				ED52D4391B5D1044003C6E5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
